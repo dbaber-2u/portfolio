@@ -27,7 +27,7 @@ function Nav({navigation=[], currentNavigation, setCurrentNavigation}) {
                 ))}
             </ul>
         </nav>
-    );
+    )
 }
 
 export default Nav;

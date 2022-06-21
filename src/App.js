@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
-
+import PageContent from './components/PageContent';
 
 
 function App() {
@@ -34,13 +34,13 @@ function App() {
         </header>
       )}
       <div className="content">
-        <p>{currentNavigation.name}</p>
+        <PageContent currentNavigation={currentNavigation} />
       </div>
       <footer>
         <p>footer</p>
       </footer>
     </div>
-  );
+  )
 }
 
 export default App;
