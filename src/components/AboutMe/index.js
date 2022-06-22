@@ -15,7 +15,7 @@ function AboutMe() {
                 <li>Software Engineer for 20+ years</li>
                 <li>Lego Enthusiast</li>
                 <li>Husband</li>
-                <li>Father to 9</li>                
+                <li>Father to 9</li>
             </ul>
         </section>
     )
