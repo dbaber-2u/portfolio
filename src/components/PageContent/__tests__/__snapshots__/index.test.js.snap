@@ -3,107 +3,31 @@
 exports[`PageContent component matches snapshot 1`] = `
 <DocumentFragment>
   <section>
-    <div
-      class="w3-panel w3-red"
-    >
-      <p>
-        The following are examples and not real
-      </p>
+    <div>
+      <img
+        alt="me profile pic"
+        class="img-thumbnail mx-1"
+        src="ProfilePic.jpg"
+      />
     </div>
-    <div
-      class="flex-row"
-    >
-      <div>
-        <p>
-          <a
-            href="https://github.com/dbaber-2u/project1"
-          >
-            Project 1
-          </a>
-        </p>
-        <img
-          alt="Project 1"
-          class="img-thumbnail mx-1"
-          href="http://dbaber-2u.github.io/project1"
-          src="programming1.jpg"
-        />
-      </div>
-      <div>
-        <p>
-          <a
-            href="https://github.com/dbaber-2u/project2"
-          >
-            Project 2
-          </a>
-        </p>
-        <img
-          alt="Project 2"
-          class="img-thumbnail mx-1"
-          href="http://dbaber-2u.github.io/project2"
-          src="programming2.jpg"
-        />
-      </div>
-      <div>
-        <p>
-          <a
-            href="https://github.com/dbaber-2u/project3"
-          >
-            Project 3
-          </a>
-        </p>
-        <img
-          alt="Project 3"
-          class="img-thumbnail mx-1"
-          href="http://dbaber-2u.github.io/project3"
-          src="programming3.jpg"
-        />
-      </div>
-      <div>
-        <p>
-          <a
-            href="https://github.com/dbaber-2u/project4"
-          >
-            Project 4
-          </a>
-        </p>
-        <img
-          alt="Project 4"
-          class="img-thumbnail mx-1"
-          href="http://dbaber-2u.github.io/project4"
-          src="programming4.jpg"
-        />
-      </div>
-      <div>
-        <p>
-          <a
-            href="https://github.com/dbaber-2u/project5"
-          >
-            Project 5
-          </a>
-        </p>
-        <img
-          alt="Project 5"
-          class="img-thumbnail mx-1"
-          href="http://dbaber-2u.github.io/project5"
-          src="programming5.jpg"
-        />
-      </div>
-      <div>
-        <p>
-          <a
-            href="https://github.com/dbaber-2u/project6"
-          >
-            Project 6
-          </a>
-        </p>
-        <img
-          alt="Project 6"
-          class="img-thumbnail mx-1"
-          href="http://dbaber-2u.github.io/project6"
-          src="programming6.jpg"
-        />
-      </div>
-    </div>
+    <p>
+      This is a little bit about me:
+    </p>
+    <p />
+    <ul>
+      <li>
+        Software Engineer for 20+ years
+      </li>
+      <li>
+        Lego Enthusiast
+      </li>
+      <li>
+        Husband
+      </li>
+      <li>
+        Father to 9
+      </li>
+    </ul>
   </section>
 </DocumentFragment>
 `;

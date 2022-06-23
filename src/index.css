@@ -129,7 +129,8 @@ span[role="img"] {
 }
 
 form {
-  width: 40%;
+  width: 100%;
+  text-align: left;
 }
 
 input {
@@ -170,6 +171,10 @@ textarea {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.error-text {
+  color: var(--error);
 }
 
 .flex-row {
@@ -233,6 +238,15 @@ textarea {
 .card {
   width: 25%;
   text-align: center;
+}
+
+.contact-label {
+  text-align: left;
+  vertical-align: top;
+}
+
+.contact-row {
+  width: 100%;
 }
 
 .img-thumbnail {

@@ -12,12 +12,12 @@ const projects = [
 function Portfolio() {
     return (
         <section>
-            <div className="w3-panel w3-red">
+            <div key="warning" className="w3-panel w3-red">
                 <p>The following are examples and not real</p>
             </div>
-            <div className="flex-row">
+            <div key="projects" className="flex-row">
                 {projects.map((prj, i) => (
-                <div>
+                <div key={`project${i}`}>
                 <p><a href={`https://github.com/dbaber-2u/${prj.root}`}>{prj.name}</a></p>
                 <img
                     src={require(`../../assets/programming${i+1}.jpg`)}

@@ -4,20 +4,31 @@ import '@testing-library/jest-dom/extend-expect';
 import PageContent from '..';
 
 
-const currentNavigation = { "name": "Portfolio" };
+const navigations = [
+    { "name": "About Me" },
+    { "name": "Contact" },
+    { "name": "Portfolio" }
+];
+
 afterEach(cleanup);
 
 
 
 describe('PageContent component', () => {
     // baseline test
-    it('renders', () => {
-        render(<PageContent navigation={[currentNavigation]} currentNavigation={currentNavigation} />);
-    });
+    //it('renders', () => {
+    //    render(<PageContent navigation={[currentNavigation]} currentNavigation={currentNavigation} />);
+    //});
+
+    navigations.map((curNav, i) => (
+        it('renders ${curNav.name}', () => {
+            render(<PageContent navigation={navigations} currentNavigation={curNav} />);
+        })
+    ));
 
     // snapshot test
     it('matches snapshot', () => {
-        const { asFragment } = render(<PageContent currentNavigation={currentNavigation} />);
+        const { asFragment } = render(<PageContent currentNavigation={navigations[0]} />);
 
         expect(asFragment()).toMatchSnapshot();
     });
