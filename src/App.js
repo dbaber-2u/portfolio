@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './assets/w3.css';
 import Header from './components/Header';
 import PageContent from './components/PageContent';
 

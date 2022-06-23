@@ -1,23 +1,23 @@
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
-import Nav from '..';
+import PageContent from '..';
 
 
-const currentNavigation = { "name": "About Me" };
+const currentNavigation = { "name": "Portfolio" };
 afterEach(cleanup);
 
 
 
-describe('Navigation component', () => {
+describe('PageContent component', () => {
     // baseline test
     it('renders', () => {
-        render(<Nav navigation={[currentNavigation]} currentNavigation={currentNavigation} />);
+        render(<PageContent navigation={[currentNavigation]} currentNavigation={currentNavigation} />);
     });
 
     // snapshot test
     it('matches snapshot', () => {
-        const { asFragment } = render(<Nav currentNavigation={currentNavigation} />);
+        const { asFragment } = render(<PageContent currentNavigation={currentNavigation} />);
 
         expect(asFragment()).toMatchSnapshot();
     });
