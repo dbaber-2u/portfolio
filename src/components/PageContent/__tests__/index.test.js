@@ -7,7 +7,8 @@ import PageContent from '..';
 const navigations = [
     { "name": "About Me" },
     { "name": "Contact" },
-    { "name": "Portfolio" }
+    { "name": "Portfolio" },
+    { "name": "Resume" }
 ];
 
 afterEach(cleanup);
