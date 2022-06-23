@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation component matches snapshot 1`] = `
+<DocumentFragment>
+  <nav>
+    <ul
+      class="flex-row"
+    />
+  </nav>
+</DocumentFragment>
+`;
