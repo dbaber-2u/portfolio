@@ -4,6 +4,7 @@ import './App.css';
 import './assets/w3.css';
 import Header from './components/Header';
 import PageContent from './components/PageContent';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -37,9 +38,7 @@ function App() {
       <div className="content">
         <PageContent currentNavigation={currentNavigation} />
       </div>
-      <footer>
-        <p>footer</p>
-      </footer>
+      <Footer />
     </div>
   )
 }
